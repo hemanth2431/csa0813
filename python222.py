@@ -29,3 +29,42 @@ print(x)
 
 list1={1,3,7,5,3}
 print(list(set(list1)))
+
+n=5
+fact=1
+for i in range (1,n+1):
+    fact=fact*i
+print(fact)
+
+n=5
+if n%2==0:
+    print("even")
+else:
+    print("odd")
+
+a=int(input("enter value:"))
+if(a%4==0):
+    print("leap year")
+else:
+    print("not leap year")
+
+a=int(input("enter value:"))
+b=int(input("enter value:"))
+c=int(input("enter value:"))
+if(a>b):
+    print("a is grater")
+if(c>a):
+    print("c is grater")
+else:
+    print("b is grater")
+
+n=int(input("enter the no.of terms:"))
+ft=0
+st=1
+nt=0
+for i in range(0,n+1):
+      ft=st
+      st=nt
+      nt=ft+st
+      print(nt)
+        
