@@ -1,0 +1,83 @@
+`def add():
+    n1=int(input("enter the first number"))
+    n2=int(input("enter the second number"))
+    print("addition of{}+{} is {}".format(n1,n2,(n1+n2)))
+    add()
+
+def add(a,b):#a and b both are formal arguments
+    print("addition of{}+{} is {}".format(a,b,(a+b)))
+    a=int(input("enter the first number"))
+    b=int(input("enter the second number"))
+    add(a,b)#a and b both are actul argument
+
+
+def add():
+    n1=int(input("enter the first number:"))
+    n2=int(input("enter the second number:"))
+    return(n1+n2)
+print("addition is {}".format(add()))
+
+def add():
+    n1=int(input("enter the first number:"))
+    n2=int(input("enter the second number:"))
+    return (n1+n2)
+print("Addition is {}".format(add()))
+
+def area(r):
+    return(area)
+r=int(input("enter the radius:"))
+area=r*r*3.14
+print("area is {}".format(area))
+
+def area():
+    b=int(input("enter the b value:"))
+    h=int(input("enter the h value:"))
+    return (0.5*b*h)
+print("The area of the triangle is:", area())
+
+def area():
+    b=int(input("enter the b value:"))
+    h=int(input("enter the h value:"))
+    return (b*h)
+print("The area of the rectangle is:", area())
+
+def area(s):
+    return(area)
+    s=int(input("enter the s value:"))
+    area (s*s)
+print("The area of the square is:", area())
+
+
+def area(r):
+    return(area)
+def area(a):
+    return(Area)
+def area(a,b):
+    return(area1,area2)
+r=int(input("enter the radius:"))
+a=int(input("enter the length:"))
+b=int(input("enter the breadth:"))
+area=r*r*3.14
+area1=a*a
+area2=a*b
+area3=1/2*a*b
+print("area of circle is {}".format(area))
+print("area of square is {}".format(area1))
+print("area of rectangle {}".format(area2))
+print("area of triangle {}".format(area3))
+
+def palindrome():
+    n=int(input("enter the num:"))
+    temp=n
+    sum=0
+    while n!=0:
+        r=n%10
+        sum=sum*10+r
+        n=n//10
+    if(sum==temp):
+        print(temp,"is a palindrome")
+    else:
+        print(temp,"is not a palindrome")
+palindrome()
+
+ 
